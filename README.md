@@ -10,9 +10,9 @@ Become more familiar with JavaScript and improve on writing functions.
 
 Simply click the link below.  
 
-https://fluent85.github.io/responsiveportfolio/
+https://fluent85.github.io/MarvelTriviaQuiz/
 
-## Screenshots
+## Screenshot
 
 
 <img src="assets/images/background.JPG" alt="Black Panther Mask">
