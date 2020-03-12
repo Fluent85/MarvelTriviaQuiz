@@ -1,41 +1,116 @@
-body{
+body {
+    background: url("../images/mask.jpg");
+}
+
+.container {
+    font-family: 'Times New Roman', Times, serif
     font-size: 20px;
-    font-family: sans-serif;
-    color: #333;
+    border-radius: 25px;
+    background-color: whitesmoke;
+    width: 900px;
+    border: 1px solid;
+    padding: 15px;
+    margin-top: 100px;
+}
+
+.time {
+    margin-left: 800px;    
+}
+
+.nav {
+    background-color: rgb(47, 12, 92);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    padding: 15px;
+}
+
+#start {
+    background-color: rgb(81, 4, 100);
+    color: white;
+    padding: 5px;
 }
 
 h1 {
-    text-align: center;
+    font-family: 'Dancing Script', cursive;
 }
 
-#previous {
-    text-align: center;
+#quizQuestions {
+    font-size: 26px;
+    font-weight: bold;
 }
 
-.question {
-    font-weight: 600;
+/*MEDIA QUERIES*/
+@media (max-width: 360px) {
+    .container {
+        width: 345px;
+        margin-top: 25px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .time {
+        margin-left: 25px;
+    }
 }
 
-.answers {
-  margin-bottom: 20px;
+@media (max-width: 411px) {
+    .container {
+        width: 400px;
+        margin-top: 25px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .time {
+        margin-left: 40px;
+    }
 }
 
-.answers label {
-  display: block;
+@media (max-width: 320px) {
+    .container {
+        width: 310px;
+        margin-top: 25px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .time {
+        margin-left: 25px;
+    }
 }
 
-#submit {
-    font-family: sans-serif;
-    font-size: 20px;
-    background-color: #279;
-    color: #fff;
-    border: 0px;
-    border-radius: 3px;
-    padding: 20px;
-    cursor: pointer;
-    margin-bottom: 20px;
+@media (max-width: 375px) {
+    .container {
+        width: 350px;
+        margin-top: 25px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .time {
+        margin-left: 30px;
+    }
 }
 
-#submit:hover {
-    background-color: #38a;
+@media (max-width: 414px) {
+    .container {
+        width: 400px;
+        margin-top: 25px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .time {
+        margin-left: 30px;
+    }
 }
