@@ -10,8 +10,8 @@ Become more familiar with JavaScript and improve on writing functions.
 
 ```
 As a coding bootcamp student
-I want to take a timed quiz on JavaScript fundamentals that stores high scores
-so that I can gauge my progress compared to my peers
+I want to take a timed quiz on Marvel's Black Panther history that stores high scores
+so that I can gauge my progress compared to my peers.
 ```
 
 How do you deliver this? Here are some guidelines:
