@@ -24,11 +24,9 @@ How do you deliver this? Here are some guidelines:
 
   * Score is calculated by time remaining. Answering quickly and correctly results in a higher score. Answering incorrectly results in a time penalty (for example, 15 seconds are subtracted from time remaining).
 
-  * When time runs out and/or all questions are answered, the user is presented with their final score and asked to enter their initials. Their final score and initials are then stored in `localStorage`.
+  * When time runs out and/or all questions are answered, the user is presented with their final score and it is stored in `localStorage`.
 
-* Your application should also be responsive, ensuring that it adapts to multiple screen sizes.
 
-* Refer to the animated GIF below for a demonstration of the application functionality.
 
 ## How to use? 
 
